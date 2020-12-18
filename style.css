@@ -1,0 +1,119 @@
+body {
+    background: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /*Header*/
+  header{
+    background-image: url('./img/header_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    transition: all 1000ms;
+  }
+  header:hover {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+  
+  header:hover .header-content {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+  .header-content{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-top:105px;
+    margin-left: -145px;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+  }
+  .header-img{
+    height: 100px;
+    width: 100px;
+  }
+  .header-title{
+    margin-top: .5rem;
+    font-size:2.5rem;
+    font-family: 'Oswald', sans-serif;
+  }
+  .header-description{
+    margin-top:-1.8rem;
+    line-height: 1.5;
+  }
+  .header-description a{
+    text-decoration: none;
+    color:red;
+  }
+  .header-description a:hover{
+    color: lightcoral;
+  }
+  /*Section Services*/
+  .services-heading{
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+  }
+  .section-services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:1rem;
+    max-width: 960px;
+    margin: auto;
+    padding: 4rem 1rem;
+  }
+  .section-services-cards{
+    text-align: center;
+  }
+  /*Section coding*/
+  .coding{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    background-color: white;
+    color: black;
+    margin: auto;
+    padding: 4rem 1rem;
+
+  }
+  .coding-icon{
+    text-align: center;
+    
+  }
+  .coding-description{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+.coding-description h3{
+  font-size: 2.5rem;
+}
+/*JS Section*/
+.js-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin: auto;
+  padding: 4rem 1rem;
+}
+.js-description{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+.js-icon{
+  text-align: center;
+}
+/*footer*/
+footer{
+  background-color: white;
+  color: black;
+}
+footer p{
+  font-size: small;
+}
