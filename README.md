@@ -1,6 +1,6 @@
 #Live
 
-[LIVE](https://stankovics.github.io/FadingPage/)
+[Check it out LIVE](https://stankovics.github.io/FadingPage/)
 
 # Grid Landing Page with fading background
 
